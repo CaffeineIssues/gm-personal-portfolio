@@ -10,7 +10,7 @@ const SectionContainer: React.FC<ContainerProps> = ({
   children,
   className,
 }) => {
-  return <div className={`${className} h-screen w-screen`}>{children}</div>;
+  return <div className={`${className} h-screen min-w-full`}>{children}</div>;
 };
 
 export default SectionContainer;
