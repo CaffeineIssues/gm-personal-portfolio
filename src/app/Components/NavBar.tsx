@@ -35,8 +35,10 @@ export default function Header() {
         aria-label="Global"
       >
         <div className="flex items-center justify-between">
-          <a className="sm:hidden flex-none" href="#">
-            <Image src="/logo/white.png" alt="logo" width="64" height="64" />
+          <a className="flex-none font-bold" href="#">
+            <h1>
+              GMDOAS.<span className="text-orange-600">DEV</span>
+            </h1>
           </a>
           <div className="sm:hidden">
             <button
@@ -79,7 +81,7 @@ export default function Header() {
             isNavbarOpen ? 'block' : 'hidden'
           } overflow-hidden transition-all duration-300 basis-full grow sm:block`}
         >
-          <div className="flex flex-col gap-5 mt-5 sm:flex-row sm:items-center sm:justify-end sm:mt-0 sm:pl-5">
+          <div className="flex flex-col gap-10 mt-5 sm:flex-row sm:items-center sm:justify-end sm:mt-0 sm:pl-5">
             <a
               className="font-medium text-white-500"
               href="#home"
@@ -100,7 +102,7 @@ export default function Header() {
               href="#services"
               onClick={scrollToCenter}
             >
-              Get in Touch
+              Get in Touch!
             </a>
           </div>
         </div>

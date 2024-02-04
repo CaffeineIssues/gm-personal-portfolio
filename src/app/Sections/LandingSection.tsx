@@ -2,7 +2,7 @@
 'use client';
 import React from 'react';
 import SectionContainer from '@components/SectionContainer';
-import { IoMdSearch } from 'react-icons/io';
+import { IoMdSearch, IoMdMail, IoIosCall } from 'react-icons/io';
 import { Orbitron } from 'next/font/google';
 import Image from 'next/image';
 
@@ -51,16 +51,40 @@ function LandingSection() {
           </div>
         </div>
       </div>
-      <div className="lg:w-full">
+      <div className="lg:w-full relative">
+        <div className="w-[10em] flex  justify-center rounded-full p-2 pl-4 pr-4 bg-[#fdad16] top-[15em] left-[7em] absolute">
+          11nd May 1996
+        </div>
+        <div className="w-[10em] flex  justify-center rounded-full p-2 pl-4 pr-4 bg-[#fdad16] top-[23em] right-[7em] absolute">
+          Brazilian
+        </div>
         <div className="h-screen flex-1 bg-black m-36 items-center justify-center">
           <div className="w-full bg-[#334b35] h-1/2 flex pt-12 pb-12 items-center justify-center">
             <img
               src="/profile.jpg"
               alt="profilepic"
-              className="h-[20em] w-[20em] rounded-full center"
+              className="h-[19em] w-[19em] rounded-full center"
             />
           </div>
-          <div></div>
+          <div className="w-full flex items-center justify-center  text-white ">
+            <h1 className={`${orbitronText.className} text-4xl mt-4 font-bold`}>
+              Contact
+            </h1>
+          </div>
+          <div className="w-full flex items-center justify-center p-4  text-white ">
+            <ul>
+              <li className="flex items-center justif-center w-full gap-4">
+                <IoMdMail />{' '}
+                <span>
+                  gmdoas.<span className="text-orange-600">dev</span>
+                  @gmail.com{' '}
+                </span>
+              </li>
+              <li className="flex items-center justif-center w-full gap-4 mt-4">
+                <IoIosCall /> <span>+55 (85) 9 8119-2976</span>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </SectionContainer>
