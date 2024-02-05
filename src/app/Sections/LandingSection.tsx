@@ -38,7 +38,7 @@ function LandingSection() {
             <div className="bg-orange-600 text-left rounded-full pt-4 pb-4">
               <IoMdSearch
                 size="1.5em"
-                className="leading-none inline-block align-middle ml-4 mr-[17%]"
+                className="leading-none inline-block align-middle ml-4 mr-[12%]"
                 color="white"
               />
               <a
@@ -51,7 +51,8 @@ function LandingSection() {
           </div>
         </div>
       </div>
-      <div className="lg:w-full relative">
+
+      <div className="w-full relative">
         <div className="w-[10em] flex  justify-center rounded-full p-2 pl-4 pr-4 bg-[#fdad16] top-[15em] left-[7em] absolute">
           11nd May 1996
         </div>
