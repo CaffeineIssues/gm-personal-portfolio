@@ -38,7 +38,7 @@ function LandingSection() {
             <div className="bg-orange-600 text-left rounded-full pt-4 pb-4">
               <IoMdSearch
                 size="1.5em"
-                className="leading-none inline-block align-middle ml-4 mr-[12%]"
+                className="leading-none inline-block align-middle ml-4 mr-[17%]"
                 color="white"
               />
               <a
