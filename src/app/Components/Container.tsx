@@ -5,7 +5,7 @@ type ContainerProps = {
 };
 
 const Container: React.FC<ContainerProps> = ({ children }) => {
-  return <div>{children}</div>;
+  return <div className="w-screen">{children}</div>;
 };
 
 export default Container;

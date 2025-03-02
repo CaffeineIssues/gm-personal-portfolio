@@ -7,8 +7,8 @@ const orbitronText = Orbitron({ subsets: ['latin'] });
 export default function ResumeSection() {
   return (
     <SectionContainer className="bg-[#334b35]  h-screen min-h-full w-full p-4 grid lg:grid-cols-2  sm:flex-row">
-      <div className="lg:w-full sm:w-screen">
-        <div className="h-screen flex items-center justify-center relative ">
+      <div className="lg:w-full sm:w-screen ">
+        <div className="h-screen flex items-center w-full justify-center relative ">
           <div className="xl:p-28 space-y-8 absolute xl:top-[-4em] top-[-0.1em] p-4">
             <h1
               className={`${orbitronText.className} font-bold text-white text-5xl`}
@@ -54,10 +54,10 @@ export default function ResumeSection() {
               <li className="ms-6 h-[2em] mb-[-2em]">
               </li>
             </ol>
-            <div className=" bg-yellow-500 h-[30em] xl:w-[40em] lg:w-[40em] xl:absolute lg:absolute mr-10">
+            <div className=" bg-yellow-500 h-[30em] xl:w-[40em] lg:w-[40em] xl:absolute lg:absolute ">
               {' '}
               <h1
-                className={`${orbitronText.className} font-bold text-black ml-[1.3em] mt-[0.5em] text-5xl`}
+                className={`${orbitronText.className} font-bold text-black  mt-[0.5em] text-5xl`}
               >
                 Experience
               </h1>
