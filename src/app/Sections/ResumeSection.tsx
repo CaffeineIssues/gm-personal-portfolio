@@ -65,7 +65,26 @@ export default function ResumeSection() {
           </div>
         </div>
       </div>
-      <div className="lg:w-full sm:w-screen"></div>
+      <div className="lg:w-full sm:w-screen z-50 ">
+        <div className="w-full items-center text-center justify-center space-y-[-0.8em] mt-[5em]">
+       
+        <h1
+         style={{
+          WebkitTextStroke: "2px white",
+          color: "transparent",
+        }}
+          className={`${orbitronText.className} text-8xl font-bold text-transparent drop-shadow-[2px_2px_10px_white]`}
+        >
+
+          Stack
+        </h1>
+        <h1
+          className={`${orbitronText.className} font-bold text-black  mt-[0.5em] text-8xl`}
+        >
+          Stack
+        </h1>
+        </div>
+      </div>
     </SectionContainer>
   );
 }
