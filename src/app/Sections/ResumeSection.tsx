@@ -51,9 +51,10 @@ export default function ResumeSection() {
                   E.E.E.P Juarez Távora
                 </p>
               </li>
-              <li className="ms-6 h-[2em]"></li>
+              <li className="ms-6 h-[2em] mb-[-2em]">
+              </li>
             </ol>
-            <div className=" bg-yellow-500 h-[30em] w-[40em] absolute top-[32em] left-[3em]">
+            <div className=" bg-yellow-500 h-[30em] xl:w-[40em] lg:w-[40em] xl:absolute lg:absolute mr-10">
               {' '}
               <h1
                 className={`${orbitronText.className} font-bold text-black ml-[1.3em] mt-[0.5em] text-5xl`}

@@ -62,7 +62,7 @@ function LandingSection() {
         <div className="h-screen flex-1 bg-black m-36 items-center justify-center">
           <div className="w-full bg-[#334b35] h-1/2 flex xl:pt-12 xl:pb-12 items-center justify-center">
             <img
-              src="/profile.jpg"
+              src="/profile3.jpg"
               alt="profilepic"
               className="xl:w-9/12 xl:rounded-full xl:h-auto h-full center"
             />
