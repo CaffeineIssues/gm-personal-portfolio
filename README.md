@@ -22,3 +22,9 @@ In this project we are using:
 - TailwindCSS
 - StyledComponents
 - Twin.macros
+
+
+
+## Production
+
+it can be accessed at https://gmdoas.dev
