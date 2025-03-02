@@ -6,10 +6,10 @@ const orbitronText = Orbitron({ subsets: ['latin'] });
 
 export default function ResumeSection() {
   return (
-    <SectionContainer className="bg-[#334b35] h-screen min-h-full w-full p-4 grid lg:grid-cols-2  sm:flex-row">
+    <SectionContainer className="bg-[#334b35]  h-screen min-h-full w-full p-4 grid lg:grid-cols-2  sm:flex-row">
       <div className="lg:w-full sm:w-screen">
-        <div className="h-screen flex items-center justify-center relative">
-          <div className="lg:p-28 space-y-8 absolute top-[-4em]">
+        <div className="h-screen flex items-center justify-center relative ">
+          <div className="xl:p-28 space-y-8 absolute xl:top-[-4em] top-[-0.1em] p-4">
             <h1
               className={`${orbitronText.className} font-bold text-white text-5xl`}
             >
