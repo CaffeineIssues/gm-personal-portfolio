@@ -19,7 +19,7 @@ export default function ResumeSection() {
               <li className="mb-10 ms-6">
                 <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white dark:ring-orange-600 dark:bg-yellow-500"></span>
                 <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">
-                  2016-2024
+                  2016-2025
                 </h3>
                 <h3 className="text-white font-bold">Computer Science</h3>
                 <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
