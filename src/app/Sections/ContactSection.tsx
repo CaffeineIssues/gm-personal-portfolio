@@ -62,7 +62,7 @@ function ContactSection() {
           <h1
             className={`${orbitronText.className} max-w-[10em] text-5xl font-bold leading-none text-black sm:text-6xl lg:text-7xl xl:text-8xl`}
           >
-            Let's Work Together
+            Let&apos;s work together
           </h1>
 
           <p className="mt-8 max-w-[38rem] text-base leading-relaxed text-black/75 sm:text-lg">

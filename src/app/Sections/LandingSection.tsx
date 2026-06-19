@@ -26,7 +26,7 @@ function LandingSection() {
             <h2
               className={`${orbitronText.className} text-7xl  text-black font-bold`}
             >
-              I'm Gabriel
+              I&apos;m Gabriel
             </h2>
             <p className="text-gray-400 text-justify">
               I am a self-taught Software Developer based in Brazil with
