@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import Container from '@components/Container';
 import LandingSection from '@/app/Sections/LandingSection';
 import Navbar from '@components/NavBar';
@@ -8,15 +7,24 @@ import ContactSection from './Sections/ContactSection';
 
 export default function Home() {
   return (
-    <>
-      <Container>
-        <Navbar />
+    <Container>
+      <Navbar />
+
+      <div id="home">
         <LandingSection />
+      </div>
+
+      <div id="resume">
         <ResumeSection />
+      </div>
+
+      <div id="projects">
         <PersonalSection />
+      </div>
+
+      <div id="contact">
         <ContactSection />
-      </Container>
-    </>
-    //<main className="flex min-h-screen flex-col items-center justify-between p-24">
+      </div>
+    </Container>
   );
 }

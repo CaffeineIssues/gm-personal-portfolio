@@ -83,23 +83,23 @@ export default function Header() {
         >
           <div className="flex flex-col gap-10 mt-5 sm:flex-row sm:items-center sm:justify-end sm:mt-0 sm:pl-5">
             <a
-              className="font-medium text-white-500"
-              href="#home"
+              className="font-medium text-white-500 hover:text-yellow-500"
+              href="#resume"
               onClick={scrollToCenter}
               aria-current="page"
             >
               About Me
             </a>
             <a
-              className="font-medium text-gray-600 hover:text-gray-400 dark:text-gray-400 dark:hover:text-gray-500"
-              href="#clients"
+              className="font-medium text-white-500 hover:text-yellow-500"
+              href="#projects"
               onClick={scrollToCenter}
             >
               Portifólio
             </a>
             <a
               className="font-medium text-black bg-[#fdad16] rounded-full p-2 pl-4 pr-4"
-              href="#services"
+              href="#contact"
               onClick={scrollToCenter}
             >
               Get in Touch!
