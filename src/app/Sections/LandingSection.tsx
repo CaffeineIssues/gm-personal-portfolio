@@ -84,6 +84,9 @@ function LandingSection() {
               <li className="flex items-center justif-center w-full gap-4 mt-4">
                 <IoIosCall /> <span>+55 (85) 9 8119-2976</span>
               </li>
+              <li className="flex items-center justif-center w-full gap-4 mt-4">
+                <IoIosCall /> <span>+55 (85) 9 9610-4200</span>
+              </li>
             </ul>
           </div>
         </div>
