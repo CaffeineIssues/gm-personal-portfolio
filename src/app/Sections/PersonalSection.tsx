@@ -61,7 +61,7 @@ const projects = [
 
 const carouselProjects = [...projects, ...projects, ...projects];
 
-function cropTransparentPixels(src) {
+function cropTransparentPixels(src: any) {
   return new Promise((resolve) => {
     const image = new window.Image();
 
